@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowMap - Simplify Complexity. Close Deals Faster.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-text">Flow<span class="logo-highlight">Map</span></span>
+                <span class="logo-badge">beta</span>
+            </div>
+            <div class="nav-links">
+                <a href="#why">Why FlowMap</a>
+                <a href="#how">How it Works</a>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <button class="cta-button">Schedule Demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="animated-header">
+                <div class="process-animation">
+                    <svg class="flow-path" viewBox="0 0 800 200">
+                        <path class="flow-line" d="M50,100 C150,100 150,50 250,50 S350,150 450,150 S550,50 650,50 S750,100 750,100" />
+                        <circle class="flow-point start" cx="50" cy="100" r="8" />
+                        <circle class="flow-point middle1" cx="250" cy="50" r="8" />
+                        <circle class="flow-point middle2" cx="450" cy="150" r="8" />
+                        <circle class="flow-point middle3" cx="650" cy="50" r="8" />
+                        <circle class="flow-point end" cx="750" cy="100" r="8" />
+                    </svg>
+                    <div class="process-labels">
+                        <span class="process-label start">Complex</span>
+                        <span class="process-label end">Simple</span>
+                    </div>
+                </div>
+            </div>
+            <h1>We Make Processes <span class="gradient-text">Flow</span></h1>
+            <p class="hero-subtitle">Transform your complex workflows into streamlined journeys with AI-powered mapping</p>
+            <div class="cta-group">
+                <button class="cta-button primary">Get Early Access</button>
+                <button class="cta-button secondary">See How It Works</button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+        </div>
+    </section>
+
+    <section id="why" class="why-section">
+        <h2>Why FlowMap?</h2>
+        <div class="why-content">
+            <div class="why-features">
+                <div class="feature-dropdown">
+                    <div class="feature-header active" data-target="simplify">
+                        <h3>Simplify Sales Workflows</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="feature-content active" id="simplify">
+                        <p>Say goodbye to confusing presentations. FlowMap brings clarity to complex processes with easy-to-understand visualizations.</p>
+                        <ul>
+                            <li>Intuitive drag-and-drop interface</li>
+                            <li>Pre-built workflow templates</li>
+                            <li>Visual process mapping</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-dropdown">
+                    <div class="feature-header" data-target="collaborate">
+                        <h3>Collaborate in Real Time</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="feature-content" id="collaborate">
+                        <p>Involve customers and teams to co-create tailored workflows, ensuring buy-in and alignment at every step.</p>
+                        <ul>
+                            <li>Real-time collaboration tools</li>
+                            <li>Multi-user editing capabilities</li>
+                            <li>Instant feedback integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-dropdown">
+                    <div class="feature-header" data-target="prove">
+                        <h3>Prove the Value of Your Solution</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="feature-content" id="prove">
+                        <p>Demonstrate ROI with before-and-after comparisons and data-driven insights that leave no doubt about your impact.</p>
+                        <ul>
+                            <li>Comparative analysis tools</li>
+                            <li>ROI calculators</li>
+                            <li>Performance metrics dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feature-dropdown">
+                    <div class="feature-header" data-target="onboard">
+                        <h3>Effortless Onboarding</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="feature-content" id="onboard">
+                        <p>Transition seamlessly from sales to implementation with actionable maps that align all teams.</p>
+                        <ul>
+                            <li>Step-by-step implementation guides</li>
+                            <li>Progress tracking</li>
+                            <li>Team collaboration tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-images">
+                <div class="image-container active" id="simplify-img">
+                    <img src="images/workflow-mapping.jpg" alt="Team mapping a complex workflow" class="feature-image">
+                </div>
+                <div class="image-container" id="collaborate-img">
+                    <img src="images/collaboration.jpg" alt="Team collaborating on process design" class="feature-image">
+                </div>
+                <div class="image-container" id="prove-img">
+                    <img src="images/roi-dashboard.jpg" alt="ROI dashboard showing improvements" class="feature-image">
+                </div>
+                <div class="image-container" id="onboard-img">
+                    <img src="images/onboarding.jpg" alt="Smooth onboarding process" class="feature-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how" class="how-section">
+        <h2>How FlowMap Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Map Customer Processes in Minutes</h3>
+                <p>Drag and drop to create visual workflows and pinpoint customer pain points effortlessly.</p>
+                <div class="example">Example: Identify bottlenecks in current approval processes.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Show Clear Before-and-After Results</h3>
+                <p>Use side-by-side views to demonstrate how your solution transforms workflows and solves pain points.</p>
+                <div class="example">Example: Cut task approval times by 30%.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Collaborate and Customize</h3>
+                <p>Work in real time with stakeholders to refine workflows and build tailored solutions.</p>
+                <div class="example">Example: Engage decision-makers during discovery calls.</div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Highlight ROI and KPIs</h3>
+                <p>Use intuitive dashboards to showcase measurable improvements and justify decisions.</p>
+                <div class="example">Example: Save $50,000 annually by automating repetitive tasks.</div>
+            </div>
+        </div>
+        <button class="cta-button secondary">👉 Try FlowMap Now</button>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Core Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-arrows-alt"></i>
+                <h3>Drag-and-Drop Mapping</h3>
+                <p>Visualize processes with a simple, intuitive interface.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Real-Time Collaboration</h3>
+                <p>Co-create workflows with teams and customers.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-sync-alt"></i>
+                <h3>Before-and-After Views</h3>
+                <p>Showcase the impact of your solutions side by side.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-pie"></i>
+                <h3>ROI Insights</h3>
+                <p>Quantify the value of process changes with clear dashboards.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-share-alt"></i>
+                <h3>Export and Share</h3>
+                <p>Share workflows as PDFs or via secure links.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Customers Are Saying</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="quote">"FlowMap made it easy to explain a complex solution to our customer. It cut our sales cycle by weeks!"</div>
+                <div class="author">- John D., Sales Engineer</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">"With FlowMap, onboarding is now a breeze. Our customers love the clarity it brings to their processes."</div>
+                <div class="author">- Sarah M., Onboarding Specialist</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Is FlowMap a finished product?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>Not yet! FlowMap is in its early stages, and we're looking for feedback from innovative sales teams and onboarding specialists. By participating now, you'll help shape the future of the tool.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>How does FlowMap use AI?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>FlowMap leverages AI to automate the process of mapping workflows and matching customer feedback to pain points. This saves time and ensures accurate, actionable insights throughout the sales and onboarding cycles.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Who is FlowMap designed for?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>FlowMap is built for:</p>
+                    <ul>
+                        <li>Sales Engineers who need to visualize and communicate complex solutions.</li>
+                        <li>Sales Leaders looking to streamline processes and prove ROI faster.</li>
+                        <li>Onboarding Teams that want to ensure smooth transitions from sales to implementation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>What feedback are you looking for from users?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>We want to know how well FlowMap fits into your workflow, what features you'd like to see, and any challenges you encounter while using the tool. Your feedback will directly influence future updates and enhancements.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Can FlowMap handle feedback from multiple stakeholders?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>Yes! FlowMap enables you to collect and visualize feedback from multiple sources, ensuring that all pain points are addressed and workflows are aligned across teams.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>How does FlowMap help with ROI?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>FlowMap includes tools to quantify the value of process improvements by showcasing measurable outcomes like time savings, cost reductions, and efficiency gains. These insights can be presented directly to decision-makers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Can I use FlowMap for onboarding?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>Absolutely! FlowMap ensures a seamless handoff from sales to onboarding by providing clear, actionable workflows tailored to your customers' needs.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>Is FlowMap difficult to learn?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>Not at all! FlowMap's intuitive drag-and-drop interface is designed to be simple to use, even for first-time users. You can start creating workflows within minutes.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>What industries does FlowMap support?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>FlowMap is ideal for industries with complex sales and onboarding processes, including SaaS, manufacturing, consulting, and enterprise solutions.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-header">
+                    <h3>How can I get involved with FlowMap's development?</h3>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="faq-content">
+                    <p>Sign up for early access and provide feedback! We're actively engaging with early adopters to ensure FlowMap delivers the maximum value for sales and onboarding teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Get Started Today</h2>
+        <p>FlowMap simplifies your sales and onboarding workflows, helping you close deals faster and deliver value with confidence.</p>
+        <button class="cta-button primary">👉 Schedule Your Demo Today</button>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FlowMap</h3>
+                <p>Simplify Complexity. Close Deals Faster.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>info@flowmap.ai</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FlowMap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
